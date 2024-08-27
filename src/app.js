@@ -19,7 +19,7 @@ let action = ["bite", "got a flat tire", "crashed", "ate", "hurt", "pissed"];
 let what = [
   "plant",
   "tire",
-  "robber",
+  "robbed",
   "my homework",
   "my bird",
   "the food",
@@ -37,7 +37,6 @@ let when = [
 
 function getRandomNumber(_min, _max) {
   return Math.floor(Math.random() * 6);
-  //return Math.floor(Math.random() * (max - min) + min);
 }
 
 function getRandom(anyArray) {
