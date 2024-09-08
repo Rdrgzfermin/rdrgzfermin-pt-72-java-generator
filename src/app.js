@@ -58,10 +58,3 @@ window.onload = function() {
     " " +
     getRandom(when);
 };
-
-//const element = document.getElementById("myBtn");
-//element.addEventListener("click", myFunction);
-
-//function myFunction() {
-//document.getElementById("demo").innerHTML;
-//}
