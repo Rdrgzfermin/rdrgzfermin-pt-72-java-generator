@@ -4,7 +4,6 @@ import "./style.css";
 
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
-import { Button } from "bootstrap";
 
 let who = [
   "My dog",
