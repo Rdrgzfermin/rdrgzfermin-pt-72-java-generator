@@ -11,10 +11,21 @@ let who = [
   "My sister",
   "The neighbor",
   "The Cat",
-  "The robber"
+  "The robber",
+  "My coworker",
+  "My Boss"
 ];
 
-let action = ["bite", "got a flat tire", "crashed", "ate", "hurt", "pissed"];
+let action = [
+  "bite",
+  "got a flat tire",
+  "crashed",
+  "ate",
+  "hurt",
+  "pissed on",
+  "passed out",
+  "drunk"
+];
 
 let what = [
   "plant",
@@ -23,7 +34,9 @@ let what = [
   "my homework",
   "my bird",
   "the food",
-  "my keys"
+  "my keys",
+  "the car",
+  "the tree"
 ];
 
 let when = [
@@ -32,11 +45,13 @@ let when = [
   "driving.",
   "during class.",
   "during lunch.",
-  "while exercising."
+  "while exercising.",
+  "during Doctor visit.",
+  "while playing games."
 ];
 
 function getRandomNumber(_min, _max) {
-  return Math.floor(Math.random() * 6);
+  return Math.floor(Math.random() * 8);
 }
 
 function getRandom(anyArray) {
