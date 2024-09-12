@@ -49,12 +49,18 @@ function getRandom(anyArray) {
 window.onload = function() {
   //write your code here
   console.log("Hello Rigo from the console!");
-  document.querySelector("#weirdness").innerHTML =
-    getRandom(who) +
-    " " +
-    getRandom(action) +
-    " " +
-    getRandom(what) +
-    " " +
-    getRandom(when);
+};
+
+let btn = document.querySelector(".btn");
+window.onload = function() {
+  btn.addEventListener("click", function() {
+    document.querySelector("#weirdness").innerHTML =
+      getRandom(who) +
+      " " +
+      getRandom(action) +
+      " " +
+      getRandom(what) +
+      " " +
+      getRandom(when);
+  });
 };
